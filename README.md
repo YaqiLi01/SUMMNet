@@ -1,1 +1,4 @@
-# SUMMNet
+# Introduction
+**SUMMNet** extracts local detail features and global semantic features by combining powerful local large convolution block(LLCB) and global vision transformer block(GVTB). LLCB employs large kernel convolution attention(LKCA) to learn the feature extraction of local information, and GVTB adopts lightweight cross-head self-attention(LCHSA) to enhance the representations of global contextual features by the interaction between heads, while reducing the computational complexity. These two components enable SUMMNet to focus on both local and global information at different scales, providing a powerful ability of comprehensive feature representation.
+
+Numerous experiments show that our SUMMNet obtains superior performance in image classification tasks. Particularly, SUMMNet achieves **83.8%** top-1 accuracy on ImageNet-1K with about 9G FLOPs, **0.4%** higher top-1 accuracy than CrossFormer with similar parameters and FLOPs, and achieves **84.1%** top-1 accuracy on ImageNet-1K with about 11G FLOPs, **0.4%** higher top-1 accuracy than Swin-Transformer with **36%** less parameters and **30%** fewer FLOPs.
