@@ -48,7 +48,6 @@ To validate the effectiveness of our proposed SUMMNet, we conducted extensive ex
 | MetaFormer      | 73          | 11.6        | 82.5     | CVPR2022  |
 | SLaK-B          | 95          | 17.1        | 84.0     | ICLR2023  |
 | PPT-B           | 87          | 11.6        | 81.4     | CVPR2023  |
-
 | **SUMMNet-H(ours)**       | **56**          |**11.4**        | **84.1**     |        	  |
 
 ## Main results on four downstream datasets
