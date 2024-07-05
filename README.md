@@ -16,35 +16,39 @@ To validate the effectiveness of our proposed SUMMNet, we conducted extensive ex
 
 | Model           | #Params(M)  | FLOPs(G)   | Top-1(%) | Reference |
 | --------------- | ----------- | ---------- | -------- | --------- |
+| Twins-SVT-S     | 24          | 2.8        | 81.3     |NeurIPS2021|
 | RegionViT-Ti    | 14          | 2.4        | 80.4     | ICLR2022  |
 | CrossFormer-T   | 28          | 2.9        | 81.5     | ICLR2022  |
-| PaCa-Tiny       | 12          | 3.2        | 80.9     | CVPR2023  |
 | LIT-Ti          | 19          | 3.6        | 81.1     | AAAI2022  |
-| Twins-SVT-S     | 24          | 2.8        | 81.3     |NeurIPS2021|
+| PaCa-Tiny       | 12          | 3.2        | 80.9     | CVPR2023  |
 | **SUMMNet-T(ours)**   | **21**          | **3.5**        | **82.3**     |           |
 | MViTv2-T        | 24          | 4.7        | 82.3     | CVPR2022  |   
 | ConvNeXt-Tiny   | 29          | 4.5        | 82.1     | CVPR2022  |  
-| LIT-S           | 27          | 4.1        | 81.5     | AAAI22    |
+| LIT-S           | 27          | 4.1        | 81.5     | AAAI2022    |
 | DAT-T           | 29          | 4.6        | 82.0     | CVPR2022  |   
 | CrossFormer-S   | 31          | 4.9        | 82.5     | ICLR2022  | 		
 | **SUMMNet-S(ours)**       | **30**          | **4.2**        | **82.7**     |           |
-| SLaK-T          | 30          | 5.0        | 82.5     | ICLR 2023 |
 | RegionViT-S     | 31          | 5.3        | 82.6     | ICLR2021  |
-| VAN-B           | 28          | 5.0        | 82.8     | CVPR2023  |
+| SLaK-T          | 30          | 5.0        | 82.5     | ICLR2023 |
 | PaCa-Small      | 22          | 5.5        | 83.1     | CVPR2023  |
-| MOAT-0          | 28          | 5.7        | 83.3     | ICLR2022  |
+| BAT             | 26          | 4.7        | 83.1     | ICLR2023  |
+| MogaNet-S       | 25          | 5.0        | 83.4     | ICLR2024  |
+| LaViT-B         | 40          | 6.1        | 83.1     | CVPR2024  |
 | **SUMMNet-B(ours)**       | **37**          | **5.4**        | **83.4**     |           |
 | ConvNeXt-S      | 50          | 8.7        | 83.1     | CVPR2022  |
 | VAN-L           | 45          | 9.0        | 83.9     | CVPR2023  |
 | SLaK-S          | 55          | 9.8        | 83.8     | CVPR2023  |
 | ConvNeXt-S      | 50          | 8.7        | 83.1     | CVPR2022  |
-| CrossFormer-B   | 52          | 9.2        | 83.4     | ICLR2022  |		
+| CrossFormer-B   | 52          | 9.2        | 83.4     | ICLR2022  |
+| NAT-S           | 51          | 7.8        | 83.7     | CVPR2023  |
 | **SUMMNet-L(ours)**       | **49**	        | **8.9**        | **83.8**     |           |
-| RegionViT-B     | 73          |13.0        | 83.2     | ICLR2022  |	
-| LIT-B           | 86          |15.0        | 83.4     | AAAI22    |	
-| Swin-B          | 88          |15.4        | 83.5     | ICCV2021  |	
-| NesT-B          | 68          |17.9        | 83.8     | CVPR2022  |		
-| CrossFormer-L   | 92          |16.1        | 84.0     | ICLR2022  |	
+| Swin-B          | 88          | 15.4        | 83.5     | ICCV2021  |
+| RegionViT-B     | 73          | 13.0        | 83.2     | ICLR2022  |	
+| CrossFormer-L   | 92          | 16.1        | 84.0     | ICLR2022  |	
+| MetaFormer      | 73          | 11.6        | 82.5     | CVPR2022  |
+| SLaK-B          | 95          | 17.1        | 84.0     | ICLR2023  |
+| PPT-B           | 87          | 11.6        | 81.4     | CVPR2023  |
+
 | **SUMMNet-H(ours)**       | **56**          |**11.4**        | **84.1**     |        	  |
 
 ## Main results on four downstream datasets
